@@ -32,3 +32,26 @@ draw_healthbar(bar_x1, bar_y1, bar_x2, bar_y2, health_percentage, c_black, c_whi
 var health_text_x = (bar_x1 + bar_x2) / 2;  // Center the text below the bar
 var health_text_y = bar_y2 + 5;  // Position the text slightly below the bar
 draw_text(health_text_x, health_text_y, string(hp));
+
+//xp bar for player 
+
+var bar_width = 200;
+var bar_height = 20;
+var bar_offset_x = 10;
+var bar_offset_y = 10;
+
+//adaptive bar
+draw_set_color(c_black);
+draw_rectangle(bar_offset_x, bar_offset_y, bar_offset_x + bar_width, bar_offset_y + bar_height, false);
+
+// Calculate XP progress
+var xp_progress = xp / required;
+
+// Draw the filled portion of the XP bar
+draw_set_color(c_blue);
+draw_rectangle(bar_offset_x + 1, bar_offset_y + 1, bar_offset_x + (bar_width * xp_progress) - 1, bar_offset_y + bar_height - 1, false);
+
+// Draw the level text
+draw_set_color(c_white);
+draw_text(bar_offset_x + bar_width + 10, bar_offset_y, "Level: " + string(level));
+draw_text(bar_offset_x, bar_offset_y + bar_height + 5, "XP: " + string(xp) + " / " + string(required));

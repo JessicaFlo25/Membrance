@@ -6,3 +6,5 @@ dir = 0;
 xspd = 0;
 yspd = 0;
 hp = 500;
+
+xp_to_give = 40;
