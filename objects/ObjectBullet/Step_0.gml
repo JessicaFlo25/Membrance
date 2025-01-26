@@ -4,6 +4,9 @@ yspd = lengthdir_y(spd,dir);
 //take care of collisions of bullets
 move_and_collide(xspd, yspd, tile);
 
+//trigger destroy 
+if hitConfirm == true && enemyDestroy == true {destroy = true;};
+    
 //delete the bullet based on collision and leaving the screen
 if destroy == true {
     instance_destroy();

@@ -1,4 +1,3 @@
-
 event_inherited();
 
 damage = 5;
@@ -10,5 +9,7 @@ yspd = 0;
 tile = layer_tilemap_get_id("tile")
 
 //for deleting our bullets
-maxDist = 350;
+maxDist = 450;
 destroy = false;
+enemyDestroy = false;
+hitConfirm = false;

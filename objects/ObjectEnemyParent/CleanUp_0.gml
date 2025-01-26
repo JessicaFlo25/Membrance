@@ -1,0 +1,1 @@
+cleanup_dmg_list();

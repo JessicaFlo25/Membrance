@@ -1,3 +1,7 @@
+//damage setup
+create_damage_list(10, true);
+max_hp = hp;
+
 //variables for movement
 moveDir = 0;
 move_speed = 6;

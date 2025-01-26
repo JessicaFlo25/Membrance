@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ObjectEnemyDamage",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oDamagePlayer",
+  "eventList":[],
   "managed":true,
-  "name":"ObjectEnemyDamage",
+  "name":"oDamagePlayer",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

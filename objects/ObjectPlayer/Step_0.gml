@@ -32,3 +32,12 @@ if canShoot && shootTimer <= 0 {
     }
 }
 depth = -bbox_bottom;
+
+//damage for the player 
+get_damage(oDamagePlayer, true);
+
+move_wrap(true, true, 0);
+
+if hp <= 0 {
+    game_restart();
+}
