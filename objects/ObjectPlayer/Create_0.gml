@@ -1,8 +1,20 @@
 //variables for movement
 moveDir = 0;
-move_speed = 1;
-xSpd = 0;
-ySpd = 0;
+move_speed = 6;
 
-tile = layer_tilemap_get_id("tile")
+//for collisions
+tile = layer_tilemap_get_id("tile");
 
+//our aim direction that we will change in every step
+aimDir = 0
+
+//sprite control for our weapon/correct aiming
+centerYOffset = - 5;
+centerY = y + centerYOffset;
+
+
+//bullet logic
+bulletObj = ObjectBullet;
+canShoot = true;       // shooting availability
+shootTimer = 0;
+shootCooldown = 5;

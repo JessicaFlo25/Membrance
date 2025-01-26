@@ -17,8 +17,17 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"ObjectBullet","order":2,"path":"objects/ObjectBullet/ObjectBullet.yy",},
+    {"name":"ObjectDamageParent","order":5,"path":"objects/ObjectDamageParent/ObjectDamageParent.yy",},
+    {"name":"ObjectEnemyDamage","order":4,"path":"objects/ObjectEnemyDamage/ObjectEnemyDamage.yy",},
+    {"name":"ObjectEnemyParent","order":3,"path":"objects/ObjectEnemyParent/ObjectEnemyParent.yy",},
     {"name":"ObjectPlayer","order":1,"path":"objects/ObjectPlayer/ObjectPlayer.yy",},
-    {"name":"SPlayer","order":1,"path":"sprites/SPlayer/SPlayer.yy",},
+    {"name":"oFastBubble","order":7,"path":"objects/oFastBubble/oFastBubble.yy",},
+    {"name":"oSBubble","order":6,"path":"objects/oSBubble/oSBubble.yy",},
+    {"name":"SBullet","order":2,"path":"sprites/SBullet/SBullet.yy",},
+    {"name":"sFastBubble","order":9,"path":"sprites/sFastBubble/sFastBubble.yy",},
+    {"name":"sPlayer","order":7,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"sStandardBubble","order":8,"path":"sprites/sStandardBubble/sStandardBubble.yy",},
   ],
 }
